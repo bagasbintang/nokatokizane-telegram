@@ -1,0 +1,122 @@
+.judul-contact {
+				color: #FEFBF3;
+       font-family: fantasy;
+       font-weight: bold;
+       font-size: 100px;
+       position: relative;
+       left: 20px;
+       top: 5px;
+       position: relative;
+}
+.menu-contact {
+      color: #D1E8E4;
+      background-color: #E05D5D;   
+      font-family: courier;  
+      font-weight: bold;
+      padding-top: 90px;
+      padding-bottom: 25px;
+      margin: -10px;
+      text-align: center;    			
+}
+
+li {
+				display: inline-block;
+}
+
+.header {
+				background-color: #191A19;
+       padding: 53px;
+       margin-bottom: -20px;
+       margin: -10px;
+}
+
+
+.inputs {
+      margin-top: 200px;
+				width: 600px;
+				height: 50px;	
+				font-size: 50px;
+				font-family: fantasy;
+				background: transparent;
+				border: none;
+				color: #FEFBF3;
+				outline: none;
+				border-bottom: solid 1px gray;
+}
+
+.inputd {
+				height: 50px;
+				width: 600px;
+				font-size: 50px;
+				margin-top: 30px;
+				font-family: fantasy;
+				background: transparent;
+				border: none;
+				outline: none;
+				color: #FEFBF3;
+				border-bottom: solid 1px gray;
+}
+
+.inputt {
+				width: 600px;
+				font-size: 50px;
+				margin-top: 40px;
+				font-family: fantasy;
+				background: transparent;
+				outline: none;
+				color: #FEFBF3;
+				border-radius: 10px;
+}
+
+.submit {
+				margin-top: 70px;
+				font-size: 50px;
+				padding: 20px;
+				border-radius: 20px;
+				font-weight: bold;
+				color: #FEFBF3;
+				background-color: #E05D5D;
+				font-family: fantasy;
+				border: none;
+}
+.isi {
+				text-align: center;
+}
+body {
+				background-color: #212121;
+}
+
+.link1 {
+				font-family: courier;
+				font-size: 40px;
+				color: white;
+				font-weight: bold;
+				text-decoration: none;
+}
+
+.paragraph {
+				color: #C8C2BC;
+				font-weight: bold;
+				font-family: fantasy;
+				font-size: 50px;
+				text-align: center;
+				margin-top: 360px;
+				
+}
+
+.link2 {
+			font-weight: bold;
+			font-family: courier;
+			font-size: 25px;
+			color: gray;
+			text-decoration: none;
+}
+
+.text2 {
+				text-align: center;
+}
+
+/*D1E8E4 (putih-hijau)*/
+/*FEFBF3 (putih)*/
+/*E05D5D (merah)*/
+/*191A19 (abu-hitam)*/
