@@ -6,26 +6,39 @@
        position: relative;
        left: 20px;
        top: 5px;
-       position: relative;
 }
+
 .menu-contact {
       color: #D1E8E4;
-      background-color: #E05D5D;   
+      background-color: #FF5959/*#E05D5D*/;   
       font-family: courier;  
       font-weight: bold;
-      padding-top: 90px;
-      padding-bottom: 25px;
+      padding-top: 50px;
+      padding-bottom: -10px;
+      font-size: 40px;
       margin: -10px;
       text-align: center;    			
 }
 
 li {
 				display: inline-block;
+				padding : 30px;
+}
+
+.gambar-contact {
+
+				         height: 200px;
+                width: 200px;
+                /*border-radius: 120px;*/
+                float: right;
+                position: relative;
+                top: 45px;
+                right: 20px;
 }
 
 .header {
 				background-color: #191A19;
-       padding: 53px;
+       padding: 35px;
        margin-bottom: -20px;
        margin: -10px;
 }
@@ -79,6 +92,11 @@ li {
 				font-family: fantasy;
 				border: none;
 }
+
+.submit:hover {
+		background: linear-gradient(#E05D5D, #DD4A48);		
+}
+
 .isi {
 				text-align: center;
 }
@@ -110,10 +128,17 @@ body {
 			font-size: 25px;
 			color: gray;
 			text-decoration: none;
+			/*padding-bottom: 30px;*/
 }
 
 .text2 {
 				text-align: center;
+				padding-bottom: 30px;
+}
+
+ul {
+				  background: linear-gradient(-90deg, 
+				  				#FF5959,#DD4A48);
 }
 
 /*D1E8E4 (putih-hijau)*/

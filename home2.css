@@ -15,9 +15,14 @@
                 margin: -10px;
 }
 
-body {
-				         background-color: #212121;
+body {				         
+				         /*background-color: #212121;*/
+				         background: 
+				         linear-gradient(-20deg,#191A19,
+				        				      #212121);
+				        		/*#FF5959: red UPG*/
 }
+				         
 
 .gambar1 {
                 height: 200px;
@@ -31,7 +36,7 @@ body {
 
 .menu {
                 color: #D1E8E4;
-                background-color: #E05D5D;
+                background-color: #FF5959/*#E05D5D*/;
                 padding-top: 50px;
                 padding-bottom: -10px;
                 font-family: courier;
@@ -46,10 +51,15 @@ li {
                 outline: none;  
 }
 
+ul {
+				  background: linear-gradient(-90deg, 
+				  				#FF5959,#DD4A48);
+}
+
 a {
                 color: #FEFBF3;
                 font-weight: bold;
-                text-decoration:none;
+                text-decoration: none;
 }
 
 .gambar2 {
@@ -80,9 +90,11 @@ a {
 .documentasy {
 
                color: #FEFBF3;
-               font-size: 100px;
+               font-size: 120px;
                font-family: courier;
-               padding-left: 20px;
+               padding-left: 25px;
+               margin-left: 0px;
+               text-shadow: 2px 2px 1px #FEFBF3;
 }
 
 .documentasy2 , .documentasy3 {
@@ -94,10 +106,32 @@ a {
 }
 
 .ending {
-				color: #FEFBF3;
-				font-size: 30px;
-				font-family: courier;
-				margin-top: 300px;
-				margin-left: 455px;
+							          
+			          color: #FEFBF3;			        
+				        font-size: 30px;	         
+ 			          font-family: courier;	
+ 			          padding-top: 50px;	
+ 			          padding-bottom: 20px;
+ 			          text-align: right;     
+				        margin-top: 300px;
+				        margin-bottom: -20px;
+				        margin-left: -10px;
+				        margin-right: -10px;
+				        background: 
+				        linear-gradient(90deg,#191A19,
+				        				      #212121);
 				
+}
+
+.end {
+				position: relative;
+				right: 30px;
+}
+
+.github {
+				height: 50px;
+				width: 50px;
+				float: left;
+				margin-left: 70px;
+				border-radius: 100px;
 }
